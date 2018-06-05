@@ -1,0 +1,51 @@
+body {
+	background-image: url('408951.jpg');
+	padding: 10px;
+	background-size: cover;
+}
+
+img {
+	margin: 20px;
+}
+
+form {
+	margin: 40px;
+	text-align: center;
+}
+
+label {
+	font-size: 36px;
+	margin: 0 20px;
+	font-family: 'Dancing Script', cursive;
+	color: #330000;
+}
+
+input {
+	width: 250px;
+	height: 40px;
+	font-size: 26px;
+	background: #FFCC66;
+}
+
+img:hover {
+	transform: rotateY(720deg);
+	transition-duration: 3s;
+}
+
+.user {
+	margin: 10px;
+	background: -webkit-linear-gradient(#F0FFFF, #FFCC66);
+}
+
+.user a {
+	font-size: 30px;
+	color: 	#A52A2A;
+}
+
+.user a:hover {
+	text-decoration: none;
+	color: #1E90FF;
+	font-size: 36px;
+	transition-duration: 1s;
+}
+ 
